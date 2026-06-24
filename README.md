@@ -8,6 +8,16 @@ In interview monitoring systems, these techniques can help detect suspicious beh
 
 This document explains the basic concepts of head pose estimation, gaze tracking, and how they can be used to detect suspicious behavior.
 
+## Head Pose Angles Diagram
+
+![Head Pose Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Head_pose_estimation_axes.png/512px-Head_pose_estimation_axes.png)
+
+### Explanation:
+- **Yaw** → Left / Right movement  
+- **Pitch** → Up / Down movement  
+- **Roll** → Tilt movement  
+
+Note: This project is purely conceptual and does not include implementation. The values and outputs shown are illustrative examples of how a real system would behave.
 
 ## 2. Head Pose Estimation
 
