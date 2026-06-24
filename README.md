@@ -221,19 +221,29 @@ elif movement_count > 5 in 10 seconds:
   "suspicious": false
 }
 ```
+## Tools & Technologies
 
----
+- MediaPipe (Face Landmark Detection)
+- OpenCV (Image Processing)
+- Python (Conceptual Implementation)
+- Computer Vision Techniques
+## Applications
 
+- Online Interview Monitoring
+- Exam Proctoring Systems
+- Driver Attention Monitoring
+- Human-Computer Interaction
 ## 7. Conclusion
 
-Head pose estimation and gaze tracking are powerful techniques for analyzing user attention.
+Head pose estimation and gaze tracking are powerful computer vision techniques used to analyze user attention and behavior.
 
-They help detect suspicious activities in online interviews using:
+By combining:
+- Facial landmark detection
+- Euler angle computation
+- Gaze direction analysis
 
-* Facial landmarks
-* Euler angles
-* Gaze direction
+we can build intelligent systems capable of detecting suspicious activities.
 
-Although not perfect, combining multiple signals improves accuracy.
+Although false positives may occur (e.g., thinking vs cheating), combining multiple signals improves system reliability.
 
-This approach provides an effective and fair way to monitor user behavior.
+This project provides a strong conceptual foundation for building real-time AI-based monitoring systems.
